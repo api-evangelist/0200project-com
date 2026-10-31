@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-0200project provides machine‑native tools for AI agents, offering a Base transaction decoder that translates blockchain transaction hashes into plain English explanations and strict JSON. The service includes a free tier of 50 calls per day per IP, with paid plans for higher volume. It targets developers building autonomous AI agents, finance teams, and blockchain applications, emphasizing transparency, risk‑flagging, and easy integration via an API.
+0200project provides machine‑native tools for autonomous AI agents, enabling developers to decode blockchain transactions, retrieve detailed risk analysis, and integrate these capabilities via simple HTTP endpoints. The platform offers a Base transaction decoder that returns human‑readable explanations and strict JSON output, along with a pricing model that includes a free tier of 10,000 calls over 30 days and a paid plan for higher volume. Documentation is hosted at /docs/, and the company maintains an open‑source presence on GitHub.
 
-**Areas:** AI agents · Transaction decoder · API · Finance tools
+**Areas:** AI · Machine-native · Tools · Blockchain · Automation
 
 ## 0200project on APIs.io
 
@@ -92,12 +92,31 @@ Spectral rulesets for the provider's contracts.
 
 - [0200project API Rules](https://apis.io/rules/0200project-com/0200project-com-rules/)
 
-#### Security (2)
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [0200Project Com Authentication](https://apis.io/security/0200project-com/0200project-com-authentication/)
 - [0200Project Com Domain Security](https://apis.io/security/0200project-com/0200project-com-domain-security/)
 - [0200Project Com Vulnerability Disclosure](https://apis.io/security/0200project-com/0200project-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [0200Project Com Scopes](https://apis.io/scopes/0200project-com/0200project-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [0200Project Com Plans Pricing](https://apis.io/plans/0200project-com/0200project-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [0200Project Com Rate Limits](https://apis.io/rate-limits/0200project-com/0200project-com-rate-limits/)
 
 ## Where to find this API
 
@@ -105,29 +124,28 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://0200project.com/)
 - [Documentation](https://0200project.com/docs/)
-- [Getting started](https://0200project.com/docs/)
-- [Pricing](https://0200project.com/pricing/)
-- [Support](https://0200project.com/faq/)
+- [Pricing](https://0200project.com/pricing)
 - [Changelog](https://0200project.com/changelog/)
 - [Security](https://0200project.com/security/)
-- [Terms of service](https://0200project.com/terms/)
-- [Privacy policy](https://0200project.com/privacy/)
+- [Terms of service](https://0200project.com/terms)
+- [Privacy policy](https://0200project.com/privacy)
+- [GitHub](https://github.com/0200project)
 - [Status](https://0200project.com/status/)
 
 ## API Evangelist rating
 
-**Kin Score 45.3** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 54.0** — developing · rubric 0.25.0 · scored 2026-10-31
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
+| Discoverability | 65.0 |
 | Contract quality | 41.2 |
 | Contract governance | 79.1 |
-| Operational transparency | 42.1 |
-| Developer ergonomics | 33.3 |
-| Access clarity | 31.6 |
+| Operational transparency | 66.3 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 60.0 |
 
-**Agent readiness 27.3** — agent-aware
+**Agent readiness 35.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -137,11 +155,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | documented (partial credit) |
 | OpenAPI Examples | partial |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -153,7 +171,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/0200project-com/](https://apis.io/providers/0200project-com/).
 
