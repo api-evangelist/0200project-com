@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-0200project provides machine‑native tools for autonomous AI agents, enabling developers to decode blockchain transactions, retrieve detailed risk analysis, and integrate these capabilities via simple HTTP endpoints. The platform offers a Base transaction decoder that returns human‑readable explanations and strict JSON output, along with a pricing model that includes a free tier of 10,000 calls over 30 days and a paid plan for higher volume. Documentation is hosted at /docs/, and the company maintains an open‑source presence on GitHub.
+0200project provides machine‑native tools for AI agents, offering a Base transaction decoder that translates blockchain transaction hashes into plain English explanations and strict JSON. The service includes a free tier of 50 calls per day per IP, with paid plans for higher volume. It targets developers building autonomous AI agents, finance teams, and blockchain applications, emphasizing transparency, risk‑flagging, and easy integration via an API.
 
-**Areas:** AI · Machine-native · Tools · Blockchain · Automation
+**Areas:** AI Agents · Transaction decoder · Finance tools
 
 ## 0200project on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for 0200project is published on APIs.io rather than in this 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [0200project-com-mcp.yml](https://apis.io/servers/0200project-com/0200project-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [0200Project Com Agentic Access](https://apis.io/agentic-access/0200project-com/0200project-com-agentic-access/)
+- [0200project Agentic Access](https://apis.io/agentic-access/0200project-com/0200project-com-agentic-access/)
 
 #### Governance rules (1)
 
@@ -96,27 +102,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [0200Project Com Authentication](https://apis.io/security/0200project-com/0200project-com-authentication/)
-- [0200Project Com Domain Security](https://apis.io/security/0200project-com/0200project-com-domain-security/)
-- [0200Project Com Vulnerability Disclosure](https://apis.io/security/0200project-com/0200project-com-vulnerability-disclosure/)
+- [0200project Authentication](https://apis.io/security/0200project-com/0200project-com-authentication/)
+- [0200project Domain Security](https://apis.io/security/0200project-com/0200project-com-domain-security/)
+- [0200project Vulnerability Disclosure](https://apis.io/security/0200project-com/0200project-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [0200Project Com Scopes](https://apis.io/scopes/0200project-com/0200project-com-scopes/)
+- [0200project Scopes](https://apis.io/scopes/0200project-com/0200project-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [0200Project Com Plans Pricing](https://apis.io/plans/0200project-com/0200project-com-plans-pricing/)
+- [0200project Plans Pricing](https://apis.io/plans/0200project-com/0200project-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [0200Project Com Rate Limits](https://apis.io/rate-limits/0200project-com/0200project-com-rate-limits/)
+- [0200project Rate Limits](https://apis.io/rate-limits/0200project-com/0200project-com-rate-limits/)
 
 ## Where to find this API
 
@@ -124,38 +130,39 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://0200project.com/)
 - [Documentation](https://0200project.com/docs/)
-- [Pricing](https://0200project.com/pricing)
+- [Getting started](https://0200project.com/docs/)
+- [Pricing](https://0200project.com/pricing/)
+- [Support](https://0200project.com/faq/)
 - [Changelog](https://0200project.com/changelog/)
 - [Security](https://0200project.com/security/)
-- [Terms of service](https://0200project.com/terms)
-- [Privacy policy](https://0200project.com/privacy)
-- [GitHub](https://github.com/0200project)
+- [Terms of service](https://0200project.com/terms/)
+- [Privacy policy](https://0200project.com/privacy/)
 - [Status](https://0200project.com/status/)
 
 ## API Evangelist rating
 
-**Kin Score 54.0** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 49.1** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 41.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 66.3 |
-| Developer ergonomics | 23.1 |
-| Access clarity | 60.0 |
+| Discoverability | 63.3 |
+| Contract quality | 44.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 57.1 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 63.8 |
 
-**Agent readiness 35.1** — agent-ready
+**Agent readiness 28.1** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
-| Error Semantics | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
@@ -170,8 +177,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/0200project-com/](https://apis.io/providers/0200project-com/).
 
